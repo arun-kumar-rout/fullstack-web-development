@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form to apply for Teaching Assistance</h1>
+    <hr />
+    <form action="post">
+      <div>
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="enter your username"
+          autofocus
+        />
+      </div>
+      <br>
+      <div>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label>
+      </div>
+      <br>
+      <div>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Accept terms.</label>
+      </div>
+      <br>
+      <div>
+        <label for="comment">Enter your comment</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter your comment here..."></textarea>
+      </div>
+      <br>
+      <div>
+        <select name="fruits" id="fruits">
+            <option value="apple">apple</option>
+            <option value="orange">orange</option>
+            <option value="mango">mango</option>
+            <option value="grapes">grapes</option>
+            <option value="pineapple">pineapple</option>
+        </select>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
