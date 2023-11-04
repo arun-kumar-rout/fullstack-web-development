@@ -1,0 +1,8 @@
+. core web vitals are important for the SEO puspective
+1. if the content of 2 similar websites are same then the web vital score will help the search engine to rank in the google search console page.
+
+2. Cumilative Layout Shift (CLS) of your web page should very less the it will affect the UX of the webpage.
+
+3. Largest Contentful Paint (LCP) The largest usefull content of the respective webpage should be fully downloaded within 2 sec.
+
+4. FID : If a use interact in your webpages and the pages or browser responces time more than usual the it will be calculated in FID. It should be started in 100ms.
