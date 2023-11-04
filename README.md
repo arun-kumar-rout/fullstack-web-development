@@ -1,2 +1,4 @@
 # fullstack-web-development
-Practicing Web Development from beginning.
+Practicing Fullstack Web Development.
+
+<image src="./public/assets/images/Fullstack Web Development.png"/>
