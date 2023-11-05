@@ -4,13 +4,12 @@
 
 ## Technologies Covered
 ---
-|Backend|Frontend|   
+|Frontend|Backend|   
 |----|-----|  
 |HTML|NodeJs|
 |CSS|Express|
 |JavaScript|MongoDB| 
-# How to Write a readme.md file
-***
+
 ## Author of this page
 
 
