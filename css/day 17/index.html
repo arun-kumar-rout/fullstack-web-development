@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(CSS selecters)-Apply styles using selecters</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* element selecters */
+        div{
+            /* background-color: red;
+            color: #fff;
+            padding: 10px; */
+            text-align: center;
+        }
+        /* class selecter */
+        .bg-red{
+            background-color: red;
+        }
+        .bg-green{
+            background-color: green;
+        }
+        /* child selecters */
+        div > p {
+            background-color: aqua;
+        }
+        /* decendent selecters */
+        div p{
+            background-color: blue;
+        }
+        /* universal selecters */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* pseudo selecters */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellowgreen;
+        }
+
+        p:first-child{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-red">I am a div</div>
+    <div class="bg-green">dummy div</div>
+    <div>
+        <!-- main div -->
+        <main>
+            <!-- decend paragraph tag -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eveniet magni distinctio?</p>
+        </main>
+    </div>
+    <a href="https://google.com">Go to Google</a>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+</body>
+</html>
