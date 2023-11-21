@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2040px; --> pixel*/
+    width: 80vw;
+    margin: auto;
+    background-color: aqua;
+}
+.container{
+    background-color: aquamarine;
+    width: 80vw;
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.container > p{
+    font-size: 1.2em;
+}
+.mycont{
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 22px;
+    width: 100vmin;
+}
