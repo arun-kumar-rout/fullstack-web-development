@@ -10,10 +10,17 @@
             margin: 0;
             padding: 0;
         }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
         .box{
             border: 2px solid green;
-            display: inline;
+            display: inline-block;
             padding: 45px;
+            margin: 5px;
         }
     </style>
 </head>
@@ -21,6 +28,6 @@
     <div class="box">I am a Div</div>
     <span>I am a good</span>
     <span>boy.</span>
-    <div>Also a nice boy.</div>
+    <div class="box">Also a nice boy.</div>
 </body>
 </html>
